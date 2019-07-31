@@ -34,6 +34,7 @@ namespace ExpressoApp.Pages
                     Console.WriteLine(menu.Name);
                 }
                 LvMenu.ItemsSource = Menus;
+                BusyIndicator.IsRunning = false;
 
             }
             first = false;
